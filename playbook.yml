@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - role: ansible-role-nagios
+      #- role: ansible_nagios4_server_plugins
